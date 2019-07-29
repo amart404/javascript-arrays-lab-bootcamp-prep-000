@@ -16,3 +16,9 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(string) {
   return kittens.concat(string)
 }
+function prependKitten(string) {
+  return [string, ...kittens]
+}
+function removeLastKitten() {
+  return 
+}
